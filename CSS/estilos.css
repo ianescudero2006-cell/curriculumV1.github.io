@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+    font-family: "Verdana", Arial, sans-serif;
+    background-image: url("../imgs/fondo.gif");
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+header {
+    background: linear-gradient(135deg, #313B44, #1f262c);
+    color: white;
+    border-bottom: 6px solid #000;
+    position: relative;
+}
+
+h1 {
+    padding: 30px 100px;
+    font-family: "Courier New", monospace;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+#perfil {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 150px;
+    border-radius: 12px;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+nav {
+    background-image: url("../imgs/source.gif");
+    text-align: center;
+    font-family: "Courier New", monospace;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 180px;
+    padding-top: 90px;
+    margin: 20px 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+nav ul li:hover {
+    transform: translateY(-5px);
+}
+
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#estudios {
+    background: url("../imgs/estudios.png") no-repeat center 15px;
+}
+
+#conocimientos {
+    background: url("../imgs/conocimientos.png") no-repeat center 15px;
+}
+
+#contacto {
+    background: url("../imgs/contacto.png") no-repeat center 15px;
+}
+
+section {
+    background-image: url("../imgs/lgrey008.jpg");
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+article {
+    float: left;
+    width: 260px;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 1.7em;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(194, 186, 186, 0.25);
+}
+
+article header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+article p {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: #313B44;
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 20px 0;
+    border-top: 6px solid black;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #f0c040;
+    text-decoration: none;
+}
